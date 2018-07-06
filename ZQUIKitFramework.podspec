@@ -82,8 +82,8 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/joealzhou/ZQUIKit.git", :tag => s.version }
-  s.vendored_frameworks = 'ZQUIKitFramework/ZQUIKit.framework'
-  s.public_header_files = 'ZQUIKitFramework/ZQUIKit.framework/Headers/ZQUIKit.h'
+ # s.vendored_frameworks = 'ZQUIKitFramework/ZQUIKit.framework'
+ # s.public_header_files = 'ZQUIKitFramework/ZQUIKit.framework/Headers/ZQUIKit.h'
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
@@ -92,8 +92,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ZQUIKitFramework/ZQUIKitFramework.framework/Headers/*.{h,swift,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "ZQUIKitFramework/**/*"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
