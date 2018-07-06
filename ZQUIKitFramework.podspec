@@ -25,6 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+组件化测试包 模拟器
+组件化测试包 模拟器
                    DESC
 
   s.homepage     = "https://github.com/joealzhou/ZQUIKit.git"
